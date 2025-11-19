@@ -3,7 +3,7 @@ Memory Management – Part 2 (ADK)
 Long-term memory implementation for agentic systems using the Google ADK.
 Extends Session-based short-term memory by adding a searchable, persistent Memory layer.
 
-<p align="center"> <img src="https://i.imgur.com/aQjs6kN.png" width="700"> </p>
+
 🔍 Overview
 
 Part 1 covered Sessions (short-term context).
@@ -17,7 +17,6 @@ Keyword or semantic search
 
 Long-term personalized knowledge
 
-<p align="center"> <img src="https://i.imgur.com/SI9g03K.png" width="600"> </p>
 🚀 Core Components
 Memory Workflow
 Initialize → Ingest → Retrieve
@@ -63,7 +62,6 @@ InMemoryMemoryService → raw storage (no persistence)
 
 Vertex AI Memory Bank → semantic search + fact extraction + durable cloud memory
 
-<p align="center"> <img src="https://i.imgur.com/3Qxr9yK.png" width="650"> </p>
 ✅ Summary
 
 This compact notebook teaches:
